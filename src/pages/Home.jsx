@@ -188,7 +188,7 @@ const Home = () => {
                 <TabsContent value="instrumentals">
                   <div className="text-center p-8 rounded-xl bg-secondary/10 max-w-3xl mx-auto shadow-md">
                     <Flame className="mx-auto h-12 w-12 text-primary mb-4" />
-                    <h3 className="text-3xl font-bold mb-2 text-heading-indigo">🔥 Burn Instrumental</h3>
+                    <h3 className="text-3xl font-bold mb-2 text-heading-indigo"> Burn Instrumental</h3>
                     <p className="text-muted-foreground mb-4">
                       Use this instrumental to create your own cover, freestyle, or remix. Let your creativity flow!
                     </p>

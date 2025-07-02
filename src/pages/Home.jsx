@@ -36,7 +36,7 @@ const Home = () => {
         <section className="relative h-screen w-full flex items-center justify-center text-center text-white overflow-hidden">
           <video
             className="absolute top-0 left-0 w-full h-full object-cover"
-            src="/ok.mp4"
+            src="/one.mp4"
             autoPlay
             loop
             muted

@@ -193,7 +193,7 @@ const Home = () => {
                       Use this instrumental to create your own cover, freestyle, or remix. Let your creativity flow!
                     </p>
                     <audio controls className="w-full mb-4 rounded-lg">
-                      <source src="/audio" type="audio/mp4" />
+                      <source src="/audio.mp3" type="audio/mp4" />
                       Your browser does not support the audio element.
                     </audio>
                     <a

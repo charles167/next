@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Import Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 /* ------------------------------------
    Custom Theme - White and Blue
 ------------------------------------ */
 :root {
-  --background: 0 0% 100%; /* Pure white */
-  --foreground: 215 25% 20%; /* Deep navy text */
+  --background: 0 0% 100%;
+  --foreground: 215 25% 20%;
 
   --card: 0 0% 100%;
   --card-foreground: 215 25% 20%;
@@ -15,13 +18,13 @@
   --popover: 0 0% 100%;
   --popover-foreground: 215 25% 20%;
 
-  --primary: 222 85% 55%; /* Vivid blue */
+  --primary: 222 85% 55%;
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 210 60% 95%; /* Soft pale blue */
+  --secondary: 210 60% 95%;
   --secondary-foreground: 215 25% 20%;
 
-  --muted: 210 20% 98%; /* Very light grayish blue */
+  --muted: 210 20% 98%;
   --muted-foreground: 215 15% 50%;
 
   --accent: 222 100% 90%;
@@ -79,11 +82,11 @@
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: bold;
   }
 
@@ -93,9 +96,8 @@
   }
 }
 
-/* Removed Google Fonts */
 .font-display {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 /* ------------------------------------
